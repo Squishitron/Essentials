@@ -1,0 +1,5 @@
+Wyatt Jones
+
+	I added the character controller, then the script for the character controller, then the sprite for the player character (I chose the ninja frog idle for now), followed by the flipping script, which I changed to use the keys A and D rather than the arrow keys.
+
+	As for unique changes I included in my version of the project, first of all my character is slightly smaller than the project called for, as I thought it looked a little more at home when the character isn't larger than the boxes they are jumping on. I did however leave z scaled all the way up to 5, as to avoid any artificial depth problems later down the line. I also tweaked the movement parameters just a bit as well. I left the movement speed at the default 5, changed the jump down to 2.5 so the player doesn't jump as high, and increased the gravity all the way up to -17, as I like the feel more and helps the player feel less floaty and they spend less time in the air. I also changed the player capsule to be closer to a circle, since the player character sprite isn't very tall.

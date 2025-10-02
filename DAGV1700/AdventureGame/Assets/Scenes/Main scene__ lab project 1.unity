@@ -1683,7 +1683,7 @@ ParticleSystem:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1091340652}
   serializedVersion: 8
-  lengthInSec: 4
+  lengthInSec: 8
   simulationSpeed: 1
   stopAction: 0
   cullingMode: 0
@@ -7485,7 +7485,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b58e542e4e133483ca34f3afb817f460, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controller: {fileID: 0}
+  controller: {fileID: 1790060819}
 --- !u!1001 &1890129039
 PrefabInstance:
   m_ObjectHideFlags: 0

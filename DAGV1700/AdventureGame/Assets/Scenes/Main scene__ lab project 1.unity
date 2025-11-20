@@ -134,7 +134,7 @@ PrefabInstance:
     - target: {fileID: -1299071070161123483, guid: 3de14488bc63f6b4b8e88b3898c72b3f, type: 3}
       propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 725896369}
+      objectReference: {fileID: 0}
     - target: {fileID: 3435306116207123627, guid: 3de14488bc63f6b4b8e88b3898c72b3f, type: 3}
       propertyPath: m_SortingOrder
       value: -1
@@ -230,7 +230,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 725896369}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SimpleImageBehaviour, Assembly-CSharp
         m_MethodName: UpdateWithFloatData
         m_Mode: 1
@@ -1348,7 +1348,7 @@ PrefabInstance:
     - target: {fileID: -1299071070161123483, guid: 3de14488bc63f6b4b8e88b3898c72b3f, type: 3}
       propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 725896369}
+      objectReference: {fileID: 0}
     - target: {fileID: 8409881014008112549, guid: 3de14488bc63f6b4b8e88b3898c72b3f, type: 3}
       propertyPath: m_Name
       value: spikes (3)
@@ -1440,7 +1440,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 725896369}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SimpleImageBehaviour, Assembly-CSharp
         m_MethodName: UpdateWithFloatData
         m_Mode: 1
@@ -1650,7 +1650,7 @@ PrefabInstance:
     - target: {fileID: -1299071070161123483, guid: 3de14488bc63f6b4b8e88b3898c72b3f, type: 3}
       propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 725896369}
+      objectReference: {fileID: 0}
     - target: {fileID: 3435306116207123627, guid: 3de14488bc63f6b4b8e88b3898c72b3f, type: 3}
       propertyPath: m_SortingOrder
       value: -1
@@ -1746,7 +1746,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 725896369}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SimpleImageBehaviour, Assembly-CSharp
         m_MethodName: UpdateWithFloatData
         m_Mode: 1
@@ -2452,8 +2452,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 725896369}
-        m_TargetAssemblyTypeName: SimpleImageBehaviour, Assembly-CSharp
+      - m_Target: {fileID: 725896371}
+        m_TargetAssemblyTypeName: NewSimpleImageBehavior, Assembly-CSharp
         m_MethodName: UpdateWithFloatData
         m_Mode: 1
         m_Arguments:
@@ -2532,8 +2532,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 725896369}
-        m_TargetAssemblyTypeName: SimpleImageBehaviour, Assembly-CSharp
+      - m_Target: {fileID: 725896371}
+        m_TargetAssemblyTypeName: NewSimpleImageBehavior, Assembly-CSharp
         m_MethodName: UpdateWithFloatData
         m_Mode: 1
         m_Arguments:
@@ -2758,7 +2758,7 @@ PrefabInstance:
     - target: {fileID: -1299071070161123483, guid: 3de14488bc63f6b4b8e88b3898c72b3f, type: 3}
       propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 725896369}
+      objectReference: {fileID: 0}
     - target: {fileID: 3435306116207123627, guid: 3de14488bc63f6b4b8e88b3898c72b3f, type: 3}
       propertyPath: m_SortingOrder
       value: -1
@@ -2854,7 +2854,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 725896369}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SimpleImageBehaviour, Assembly-CSharp
         m_MethodName: UpdateWithFloatData
         m_Mode: 1
@@ -3617,8 +3617,8 @@ GameObject:
   - component: {fileID: 725896366}
   - component: {fileID: 725896368}
   - component: {fileID: 725896367}
-  - component: {fileID: 725896369}
   - component: {fileID: 725896370}
+  - component: {fileID: 725896371}
   m_Layer: 5
   m_Name: healthbar
   m_TagString: Untagged
@@ -3683,19 +3683,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 725896365}
   m_CullTransparentMesh: 1
---- !u!114 &725896369
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 725896365}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ddf1b3746124a41cd90cb0e79f73be2a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dataObj: {fileID: 11400000, guid: bdfd8f898b8e45044a8af490bacf506a, type: 2}
 --- !u!114 &725896370
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3727,6 +3714,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &725896371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 725896365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30743da7bdb5c954d9e91c4a33aee9c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dataObj: {fileID: 11400000, guid: bdfd8f898b8e45044a8af490bacf506a, type: 2}
 --- !u!1001 &747611893
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3742,7 +3742,7 @@ PrefabInstance:
     - target: {fileID: -1299071070161123483, guid: 3de14488bc63f6b4b8e88b3898c72b3f, type: 3}
       propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 725896369}
+      objectReference: {fileID: 0}
     - target: {fileID: 3435306116207123627, guid: 3de14488bc63f6b4b8e88b3898c72b3f, type: 3}
       propertyPath: m_SortingOrder
       value: -1
@@ -3838,7 +3838,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 725896369}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SimpleImageBehaviour, Assembly-CSharp
         m_MethodName: UpdateWithFloatData
         m_Mode: 1
@@ -4901,8 +4901,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 725896369}
-        m_TargetAssemblyTypeName: SimpleImageBehaviour, Assembly-CSharp
+      - m_Target: {fileID: 725896371}
+        m_TargetAssemblyTypeName: NewSimpleImageBehavior, Assembly-CSharp
         m_MethodName: UpdateWithFloatData
         m_Mode: 1
         m_Arguments:
@@ -5016,7 +5016,7 @@ PrefabInstance:
     - target: {fileID: -1299071070161123483, guid: 3de14488bc63f6b4b8e88b3898c72b3f, type: 3}
       propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 725896369}
+      objectReference: {fileID: 0}
     - target: {fileID: 3435306116207123627, guid: 3de14488bc63f6b4b8e88b3898c72b3f, type: 3}
       propertyPath: m_SortingOrder
       value: -1
@@ -5112,7 +5112,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 725896369}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SimpleImageBehaviour, Assembly-CSharp
         m_MethodName: UpdateWithFloatData
         m_Mode: 1
@@ -5252,7 +5252,7 @@ PrefabInstance:
     - target: {fileID: -1299071070161123483, guid: 3de14488bc63f6b4b8e88b3898c72b3f, type: 3}
       propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 725896369}
+      objectReference: {fileID: 0}
     - target: {fileID: 3435306116207123627, guid: 3de14488bc63f6b4b8e88b3898c72b3f, type: 3}
       propertyPath: m_SortingOrder
       value: -1
@@ -5348,7 +5348,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 725896369}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SimpleImageBehaviour, Assembly-CSharp
         m_MethodName: UpdateWithFloatData
         m_Mode: 1
@@ -5714,7 +5714,7 @@ PrefabInstance:
     - target: {fileID: -1299071070161123483, guid: 3de14488bc63f6b4b8e88b3898c72b3f, type: 3}
       propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 725896369}
+      objectReference: {fileID: 0}
     - target: {fileID: 3435306116207123627, guid: 3de14488bc63f6b4b8e88b3898c72b3f, type: 3}
       propertyPath: m_SortingOrder
       value: -1
@@ -5810,7 +5810,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 725896369}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SimpleImageBehaviour, Assembly-CSharp
         m_MethodName: UpdateWithFloatData
         m_Mode: 1
@@ -11433,7 +11433,7 @@ PrefabInstance:
     - target: {fileID: -1299071070161123483, guid: 3de14488bc63f6b4b8e88b3898c72b3f, type: 3}
       propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 725896369}
+      objectReference: {fileID: 0}
     - target: {fileID: 8409881014008112549, guid: 3de14488bc63f6b4b8e88b3898c72b3f, type: 3}
       propertyPath: m_Name
       value: spikes (4)
@@ -11525,7 +11525,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 725896369}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SimpleImageBehaviour, Assembly-CSharp
         m_MethodName: UpdateWithFloatData
         m_Mode: 1
@@ -12008,7 +12008,7 @@ PrefabInstance:
     - target: {fileID: -1299071070161123483, guid: 3de14488bc63f6b4b8e88b3898c72b3f, type: 3}
       propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 725896369}
+      objectReference: {fileID: 0}
     - target: {fileID: 3435306116207123627, guid: 3de14488bc63f6b4b8e88b3898c72b3f, type: 3}
       propertyPath: m_SortingOrder
       value: -1
@@ -12104,7 +12104,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 725896369}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SimpleImageBehaviour, Assembly-CSharp
         m_MethodName: UpdateWithFloatData
         m_Mode: 1
@@ -12276,6 +12276,11 @@ Transform:
   - {fileID: 1453836605}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1192584337 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 843227877597863244, guid: e0a52241d119516449f9ef770d5d9968, type: 3}
+  m_PrefabInstance: {fileID: 7596170288381767026}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1212986853
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12291,7 +12296,7 @@ PrefabInstance:
     - target: {fileID: -1299071070161123483, guid: 3de14488bc63f6b4b8e88b3898c72b3f, type: 3}
       propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 725896369}
+      objectReference: {fileID: 0}
     - target: {fileID: 3435306116207123627, guid: 3de14488bc63f6b4b8e88b3898c72b3f, type: 3}
       propertyPath: m_SortingOrder
       value: -1
@@ -12387,7 +12392,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 725896369}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SimpleImageBehaviour, Assembly-CSharp
         m_MethodName: UpdateWithFloatData
         m_Mode: 1
@@ -12623,7 +12628,7 @@ PrefabInstance:
     - target: {fileID: -1299071070161123483, guid: 3de14488bc63f6b4b8e88b3898c72b3f, type: 3}
       propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 725896369}
+      objectReference: {fileID: 0}
     - target: {fileID: 3435306116207123627, guid: 3de14488bc63f6b4b8e88b3898c72b3f, type: 3}
       propertyPath: m_SortingOrder
       value: -1
@@ -12719,7 +12724,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 725896369}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SimpleImageBehaviour, Assembly-CSharp
         m_MethodName: UpdateWithFloatData
         m_Mode: 1
@@ -12761,7 +12766,7 @@ PrefabInstance:
     - target: {fileID: -1299071070161123483, guid: 3de14488bc63f6b4b8e88b3898c72b3f, type: 3}
       propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 725896369}
+      objectReference: {fileID: 0}
     - target: {fileID: 3435306116207123627, guid: 3de14488bc63f6b4b8e88b3898c72b3f, type: 3}
       propertyPath: m_SortingOrder
       value: -1
@@ -12857,7 +12862,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 725896369}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SimpleImageBehaviour, Assembly-CSharp
         m_MethodName: UpdateWithFloatData
         m_Mode: 1
@@ -13774,7 +13779,7 @@ PrefabInstance:
     - target: {fileID: -1299071070161123483, guid: 3de14488bc63f6b4b8e88b3898c72b3f, type: 3}
       propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 725896369}
+      objectReference: {fileID: 0}
     - target: {fileID: 3435306116207123627, guid: 3de14488bc63f6b4b8e88b3898c72b3f, type: 3}
       propertyPath: m_SortingOrder
       value: -1
@@ -13870,7 +13875,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 725896369}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SimpleImageBehaviour, Assembly-CSharp
         m_MethodName: UpdateWithFloatData
         m_Mode: 1
@@ -14196,7 +14201,7 @@ PrefabInstance:
     - target: {fileID: -1299071070161123483, guid: 3de14488bc63f6b4b8e88b3898c72b3f, type: 3}
       propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 725896369}
+      objectReference: {fileID: 0}
     - target: {fileID: 3435306116207123627, guid: 3de14488bc63f6b4b8e88b3898c72b3f, type: 3}
       propertyPath: m_SortingOrder
       value: -1
@@ -14292,7 +14297,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 725896369}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SimpleImageBehaviour, Assembly-CSharp
         m_MethodName: UpdateWithFloatData
         m_Mode: 1
@@ -15508,7 +15513,7 @@ PrefabInstance:
     - target: {fileID: -1299071070161123483, guid: 3de14488bc63f6b4b8e88b3898c72b3f, type: 3}
       propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 725896369}
+      objectReference: {fileID: 0}
     - target: {fileID: 3435306116207123627, guid: 3de14488bc63f6b4b8e88b3898c72b3f, type: 3}
       propertyPath: m_SortingOrder
       value: -1
@@ -15604,7 +15609,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 725896369}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SimpleImageBehaviour, Assembly-CSharp
         m_MethodName: UpdateWithFloatData
         m_Mode: 1
@@ -15646,7 +15651,7 @@ PrefabInstance:
     - target: {fileID: -1299071070161123483, guid: 3de14488bc63f6b4b8e88b3898c72b3f, type: 3}
       propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 725896369}
+      objectReference: {fileID: 0}
     - target: {fileID: 8409881014008112549, guid: 3de14488bc63f6b4b8e88b3898c72b3f, type: 3}
       propertyPath: m_Name
       value: spikes (5)
@@ -15738,7 +15743,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 725896369}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SimpleImageBehaviour, Assembly-CSharp
         m_MethodName: UpdateWithFloatData
         m_Mode: 1
@@ -16272,7 +16277,7 @@ PrefabInstance:
     - target: {fileID: -1299071070161123483, guid: 3de14488bc63f6b4b8e88b3898c72b3f, type: 3}
       propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 725896369}
+      objectReference: {fileID: 0}
     - target: {fileID: 3435306116207123627, guid: 3de14488bc63f6b4b8e88b3898c72b3f, type: 3}
       propertyPath: m_SortingOrder
       value: -1
@@ -16368,7 +16373,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 725896369}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SimpleImageBehaviour, Assembly-CSharp
         m_MethodName: UpdateWithFloatData
         m_Mode: 1
@@ -16444,7 +16449,7 @@ PrefabInstance:
     - target: {fileID: -1299071070161123483, guid: 3de14488bc63f6b4b8e88b3898c72b3f, type: 3}
       propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 725896369}
+      objectReference: {fileID: 0}
     - target: {fileID: 3435306116207123627, guid: 3de14488bc63f6b4b8e88b3898c72b3f, type: 3}
       propertyPath: m_SortingOrder
       value: -1
@@ -16540,7 +16545,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 725896369}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SimpleImageBehaviour, Assembly-CSharp
         m_MethodName: UpdateWithFloatData
         m_Mode: 1
@@ -16582,7 +16587,7 @@ PrefabInstance:
     - target: {fileID: -1299071070161123483, guid: 3de14488bc63f6b4b8e88b3898c72b3f, type: 3}
       propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 725896369}
+      objectReference: {fileID: 0}
     - target: {fileID: 3435306116207123627, guid: 3de14488bc63f6b4b8e88b3898c72b3f, type: 3}
       propertyPath: m_SortingOrder
       value: -1
@@ -16678,7 +16683,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 725896369}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SimpleImageBehaviour, Assembly-CSharp
         m_MethodName: UpdateWithFloatData
         m_Mode: 1
@@ -17224,7 +17229,7 @@ PrefabInstance:
     - target: {fileID: -1299071070161123483, guid: 3de14488bc63f6b4b8e88b3898c72b3f, type: 3}
       propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 725896369}
+      objectReference: {fileID: 0}
     - target: {fileID: 3435306116207123627, guid: 3de14488bc63f6b4b8e88b3898c72b3f, type: 3}
       propertyPath: m_SortingOrder
       value: -1
@@ -17320,7 +17325,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 725896369}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SimpleImageBehaviour, Assembly-CSharp
         m_MethodName: UpdateWithFloatData
         m_Mode: 1
@@ -17483,7 +17488,7 @@ PrefabInstance:
     - target: {fileID: -1299071070161123483, guid: 3de14488bc63f6b4b8e88b3898c72b3f, type: 3}
       propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 725896369}
+      objectReference: {fileID: 0}
     - target: {fileID: 8409881014008112549, guid: 3de14488bc63f6b4b8e88b3898c72b3f, type: 3}
       propertyPath: m_Name
       value: spikes (2)
@@ -17575,7 +17580,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 725896369}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SimpleImageBehaviour, Assembly-CSharp
         m_MethodName: UpdateWithFloatData
         m_Mode: 1
@@ -17659,7 +17664,7 @@ PrefabInstance:
     - target: {fileID: -1299071070161123483, guid: 3de14488bc63f6b4b8e88b3898c72b3f, type: 3}
       propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 725896369}
+      objectReference: {fileID: 0}
     - target: {fileID: 3435306116207123627, guid: 3de14488bc63f6b4b8e88b3898c72b3f, type: 3}
       propertyPath: m_SortingOrder
       value: -1
@@ -17755,7 +17760,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 725896369}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SimpleImageBehaviour, Assembly-CSharp
         m_MethodName: UpdateWithFloatData
         m_Mode: 1
@@ -18053,7 +18058,7 @@ PrefabInstance:
     - target: {fileID: -1299071070161123483, guid: 3de14488bc63f6b4b8e88b3898c72b3f, type: 3}
       propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 725896369}
+      objectReference: {fileID: 0}
     - target: {fileID: 3435306116207123627, guid: 3de14488bc63f6b4b8e88b3898c72b3f, type: 3}
       propertyPath: m_SortingOrder
       value: -1
@@ -18149,7 +18154,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 725896369}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SimpleImageBehaviour, Assembly-CSharp
         m_MethodName: UpdateWithFloatData
         m_Mode: 1
@@ -18621,19 +18626,55 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7336909815419385785, guid: e0a52241d119516449f9ef770d5d9968, type: 3}
+    - {fileID: 1783623181249396528, guid: e0a52241d119516449f9ef770d5d9968, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 5589548213235585025, guid: e0a52241d119516449f9ef770d5d9968, type: 3}
       insertIndex: -1
       addedObject: {fileID: 68831503}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 843227877597863244, guid: e0a52241d119516449f9ef770d5d9968, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7596170288381767035}
+    - targetCorrespondingSourceObject: {fileID: 843227877597863244, guid: e0a52241d119516449f9ef770d5d9968, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7596170288381767036}
   m_SourcePrefab: {fileID: 100100000, guid: e0a52241d119516449f9ef770d5d9968, type: 3}
 --- !u!4 &7596170288381767027 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5589548213235585025, guid: e0a52241d119516449f9ef770d5d9968, type: 3}
   m_PrefabInstance: {fileID: 7596170288381767026}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &7596170288381767035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1192584337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 883af59afd83c0a4fb3b2afd1ab6687e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 5
+  jumpForce: 2.5
+  gravity: -17
+--- !u!114 &7596170288381767036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1192584337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9eb6c115405e4704b9607bff9bab40d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 0}
 --- !u!1001 &7905327449978049941
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18649,7 +18690,7 @@ PrefabInstance:
     - target: {fileID: -1299071070161123483, guid: 3de14488bc63f6b4b8e88b3898c72b3f, type: 3}
       propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 725896369}
+      objectReference: {fileID: 0}
     - target: {fileID: 8409881014008112549, guid: 3de14488bc63f6b4b8e88b3898c72b3f, type: 3}
       propertyPath: m_Name
       value: spikes (1)
@@ -18736,8 +18777,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 725896369}
-        m_TargetAssemblyTypeName: SimpleImageBehaviour, Assembly-CSharp
+      - m_Target: {fileID: 725896371}
+        m_TargetAssemblyTypeName: NewSimpleImageBehavior, Assembly-CSharp
         m_MethodName: UpdateWithFloatData
         m_Mode: 1
         m_Arguments:
